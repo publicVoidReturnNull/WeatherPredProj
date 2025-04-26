@@ -1,4 +1,3 @@
-uses ML to predict degrees celsius of a given day.
+This project implements a simple neural network to predict daily average temperature and wind speed for a given day of the year, based on historical weather data. The neural network uses a multilayer perceptron (MLP) to learn patterns from a dataset containing daily average temperature and wind speed, derived from hourly weather data. The user can input the temperature and wind speed for the first day of the year, along with a target day, to predict the weather conditions for that day
 
-the loss func is pretty terrible, dataset is relatively small, inefficient, and pretty confusing. at least it runs though
-
+the loss func is pretty terrible, dataset is relatively small, inefficient + not optimized, and pretty confusing. at least it runs though
